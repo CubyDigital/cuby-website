@@ -4,7 +4,11 @@ import styled, { css } from 'styled-components';
 export const Container = styled.div`
   
   width: 100%;
+  position: fixed;
   background-color: #FFF;
+  top:1px;
+  z-index: 9999;
+  box-shadow: 0px 0px 1em #ccc;
 `; 
 
 export const Content960px = styled.header`
@@ -79,6 +83,7 @@ export const MenuItem = styled.div<MenuItemProps>`
 
     &&:active {
       border-bottom: solid 3px #b2dd4c;
+      
     }
 
 `;

@@ -1,9 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
 
 html, body {
   font-family: 'Istok Web', sans-serif;
   margin: 0; 
   padding: 0;
   box-sizing: border-box;
-  background-color: #F6F9FE;
+  background-color: #F6F1F1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Istok Web', sans-serif;
+  text-align: center;
+  color: #444;
+}
+
+h2 {
+  font-size: 1.4em;
+  line-height: 1.4em;
+  font-weight: bold;
+}
+h5 {
+  font-size: 1.2em;
+  font-weight: lighter;
 }

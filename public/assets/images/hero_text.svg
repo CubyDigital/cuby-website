@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 502 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Frase inicial</title>
+    <desc>As melhores ferramentas e serviços digitais para você e sua empresa decolarem na web</desc>
+    <g id="website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="IstokWeb-Regular, Istok Web" font-size="20" font-weight="normal" letter-spacing="0.5882354">
+        <g id="index" transform="translate(-205.000000, -185.000000)" fill="#444">
+            <g id="Inicio" transform="translate(79.000000, 180.000000)">
+                <text id="As-melhores-ferramen">
+                    <tspan x="126" y="20">As melhores ferramentas e </tspan>
+                    <tspan x="388.745292" y="20" font-family="IstokWeb-Bold, Istok Web" font-weight="bold">serviços digitais </tspan>
+                    <tspan x="198.793515" y="46" font-family="IstokWeb-Bold, Istok Web" font-weight="bold">para a sua empresa </tspan>
+                    <tspan x="400.343598" y="46"> se destacar na web</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

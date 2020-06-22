@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\nimport Header from '../../components/Header';\nimport { Container } from './styles';\nexport default function Contato() {\n  return __jsx(React.Fragment, null, __jsx(Header, {\n    page: \"precos\"\n  }), __jsx(Container, null, \"PRE\\xC7OS\"));\n}","map":null,"metadata":{},"sourceType":"module"}

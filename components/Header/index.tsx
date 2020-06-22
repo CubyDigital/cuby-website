@@ -24,31 +24,31 @@ const Header: React.FC<PropHeader> = ({page}) => {
       name: "blog",
       text: "blog",
       active: page==="blog" ? true : false ,
-      link: "/Blog/",
+      link: "/blog",
     },
     {
       name: "portfolio",
       text: "portfólio",
       active: page==="portfolio" ? true : false ,
-      link: "/Blog/?cat=portfolio",
+      link: "/portfolio",
     },
     {
       name: "servicos",
       text: "serviços",
       active: page==="servicos" ? true : false ,
-      link: "/Servicos/",
+      link: "/servicos",
     },
     {
       name: "precos",
       text: "preços",
       active: page==="precos" ? true : false ,
-      link: "/Precos/",
+      link: "/precos",
     },
     {
       name: "contato",
       text: "contato",
       active: page==="contato" ? true : false ,
-      link: "/Contato/",
+      link: "/contato",
     },
   ];
 
@@ -66,12 +66,17 @@ const Header: React.FC<PropHeader> = ({page}) => {
       </Head>
       <Container>
         <Content960px>
-            <img src="/assets/images/logo_web.svg" onClick={() => handleItemClick('inicio')} />
-            
+            { 
+            page==="blog"
+              ?  <img src="/assets/images/logo_blog.svg" onClick={() => handleItemClick('blog')} />
+              :  <img src="/assets/images/logo_web.svg" onClick={() => handleItemClick('inicio')} />
+            }
               <MenuWeb>
                 {
                   menu.map(item=> (
-                    <Link href={item.link}>
+                    <Link 
+                      key={item.name}
+                      href={item.link}>
                       <MenuItem 
                         key={item.name} 
                         active={item.active}
